@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB4Makers</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width user-scalable=no initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+        <link rel="stylesheet" href="public/css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="menuMobile">
+                <img src="public/img/menu-icon.svg" alt="menu" height="35px">
+            </div>
+            <header>
+                <nav>
+                    <ul>
+                        <li>DECOUVRIR</li>
+                        <li>COMPRENDRE</li>
+                        <li>FAIRE</li>
+                    </ul>
+                </nav>
+                <div class="wrap">
+                    <img id="logo" src="public/img/logoboite.svg" alt="logo association" title="LAB4Makers">
+                </div>
+                <div class="wrap">
+                    <div id="news">
+                        <form method="post" action="#">
+                            <input type="email" placeholder="SAVOIR CE QUI SE PASSE" pattern="">
+                            <span><button type="submit">OUI !</button></span>
+                        </form>
+                    </div>
+                </div>
+                <div id="motto" class="wrap">
+                    <h1>Pour que la transition numérique profite à tous</h1>
+                </div>
+                <div class="wrap">
+                    <div id="socials" >
+                        <ul>
+                            <li><a href="#"><img src="public/img/mail.png" height="50px" width="50px"></a></li>
+                            <li><a href="http://www.twitter.com"><img src="public/img/twitter.png" height="60px" width="60px"></a></li>
+                            <li><a href="http://www.facebook.com"><img src="public/img/FB-f-Logo__blue_50.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="arrow">
+                    <div>
+                        <a class="scroll" href="#buts"><img src="public/img/fleche.png" alt="scroll" height="55px"></a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id="buts" class="wrap">
+                    <div>
+                        <div id="but-header" class="wrap">
+                            <h2>Buts de l'asso</h2>
+                            <div class="chevrons">>>>>>>></div>
+                        </div>
+                        <div class="wrap">
+                            <div class="box">
+                                
+                                <p>Permettre l’acquisition, l’appropriation et le partage de connaissances dans le domaine du numérique</p>
+                            </div>
+                            <div class="box">
+                                
+                                <p>Promouvoir la littératie numérique</p>
+                            </div>
+                            <div class="box">
+                                
+                                <p>Favoriser l'émergence de compétences douces</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="agenda" class="wrap">
+                    <div>
+                        <div id="but-header" class="wrap">
+                            <h2>Events</h2>
+                            <div class="chevrons">>>>>>>>>>>>></div>
+                        </div>
+                        <div class="event">
+                            <h3>Event 1</h3>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="wrap">
+                   <div>
+                        <div id="but-header" class="wrap">
+                            <h2>Contactez-nous :&#41</h2>
+                            <div class="chevrons">>>>></div>
+                        </div>
+                        <form id="contact-form" method="post" action="#">
+                            <label for="name">Votre nom *</label><br />
+                                <input id="name" type="text" placeholder="Votre nom" required><br />
+                            <label for="mail">Votre email *</label><br />
+                                <input id="mail" type="email" placeholder="Votre email" required><br />
+                            <label for="subject">Sujet</label><br />
+                                <input id="subject" type="text" placeholder="Sujet du message"><br />
+                            <label for="comm">Votre message</label><br />
+                                <textarea id="comm" cols="25" rows="15" placeholder="Votre message"></textarea>
+                            <button type="submit">Envoyer !</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <blockquote>" La seule façon de comprendre une nouvelle culture et de nouveaux comportements est de devenir natif. Devenir natif est un processus d’observation, d’apprentissage et d’approfondissement, pratiqué tel un anthropologiste, impliqué directement sur le terrain et en articipant
+                étroitement avec ses hôtes à leurs cultures. "
+                </blockquote>
+            </footer>
+        </div>
+        <script
+			  src="https://code.jquery.com/jquery-3.1.1.js"
+			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+			  crossorigin="anonymous">
+        </script>
+        <script src="public/js/main.js"></script>
+    </body>
+
+</html>

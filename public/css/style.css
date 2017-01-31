@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('public/fonts/raleway/raleway-bold-webfont.woff2') format('woff2');
+    src: url('public/fonts/raleway/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url('public/fonts/merriweather/merriweather-bold-webfont.woff2') format('woff2');
+    src: url('public/fonts/merriweather/merriweather-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'ralewayblack';
+    color: grey;
+}
+
+#wrapper {
+    /*width: 90%;*/
+    margin: 0 auto;
+    /*padding: 5% 0;*/
+}
+
+h1, blockquote {
+    font-size: 1.3em;
+    color: rgb(122, 48, 108);
+}
+
+.wrap {
+    clear: both;
+}
+
+.chevrons {
+    color: #FFFD15;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+#menuMobile {
+	position: fixed;
+    height: 35px;
+    top: 10px;
+    right: 10px;
+}
+
+#menuMobile img {
+	opacity: 0.7;
+}
+
+/*Header styling*/
+header {
+    height: 100vh;
+    background-color: rgb(255, 253,21);
+}
+
+/*Menu styling*/
+nav {
+    display: none;
+}
+
+/*Logo styling*/
+#logo {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0% auto;
+    padding: 5% 0 10% 0;
+    clear: both;
+}
+
+/*News styling*/
+#news {
+    width: 80%;
+    margin: 0 auto;
+    /*clear: both;*/
+}
+
+#news form {
+    text-align: center;
+}
+
+#news form input {
+    font-size: 0.7em;
+}
+
+#news form button {
+    font-size: 0.8em;
+}
+
+/*Socials styling*/
+#socials ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#socials ul li {
+    display: inline;
+    padding: 0 5%;
+}
+
+#socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Styling motto*/
+#motto {
+    margin-top: 10%;
+    text-align: center;
+}
+
+/*Arrow styling*/
+#arrow {
+	background-image: url('../assets/img/fleche.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 54px;
+}
+
+#arrow div {
+    width: 65px;
+	margin: 0 auto;
+    opacity: 0;
+    z-index: 9999;
+}
+
+
+/*Sections styling*/
+section {
+    width: 95%;
+    margin: 5% auto;
+}
+
+/*Styling buts*/
+#but-header h2, #but-header div {
+    display: inline-block;
+}
+
+.box {
+    margin: 5% auto;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(33, 160, 160);
+}
+
+.box p {
+    color: rgb(12, 27, 51);
+    font-family: 'merriweather';
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+/*Styling events*/
+.event {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(33, 160, 160);
+}
+
+/*Styling contacts*/
+#contact-form {
+    text-align: center;
+}
+
+#contact-form input {
+    width: auto;
+}
+
+#contact-form input, #contact-form button, #contact-form textarea {
+    margin: 5% 0 5% 0;
+}
+
+/*Footer styling*/
+footer {
+    background-color: rgb(255, 253,21);
+    text-align: center;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+footer blockquote {
+    margin: 0 20px;
+    padding: 5% 0 5%;
+        
+}
